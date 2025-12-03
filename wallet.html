@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Wallet</title>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<div class="container">
+    <h2>Wallet</h2>
+    <div>Balance: <span id="walletBalance">0</span></div>
+    <input type="number" id="withdrawAmount" placeholder="Amount to Withdraw">
+    <button onclick="requestWithdrawal()">Request Withdraw</button>
+    <h3>Withdrawal History</h3>
+    <table id="withdrawHistory">
+        <tr>
+            <th>Amount</th><th>Status</th>
+        </tr>
+    </table>
+</div>
+<script src="assets/app.js"></script>
+</body>
+</html>
